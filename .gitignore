@@ -399,3 +399,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# include packages folder at root smh
+!/[Pp]ackages/**

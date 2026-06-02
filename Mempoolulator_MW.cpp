@@ -87,6 +87,8 @@ void WriteMemoryPoolSizes()
         injector::WriteMemory<uint32_t>(0x5F7395, config.GManagerTempSize, true);
         injector::WriteMemory<uint32_t>(0x5F73B1, config.GManagerTempSize, true);
     }
+
+    injector::WriteMemory<uint32_t>(0x4471C9, 0x40000, true);
 }
 
 bool (*CheckMultipleInstance)(const char*, int);

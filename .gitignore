@@ -402,3 +402,4 @@ FodyWeavers.xsd
 
 # include packages folder at root smh
 !/[Pp]ackages/**
+*.idb

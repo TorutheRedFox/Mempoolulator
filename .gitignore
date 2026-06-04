@@ -403,3 +403,5 @@ FodyWeavers.xsd
 # include packages folder at root smh
 !/[Pp]ackages/**
 *.idb
+/Release-Carbon
+/Debug-Carbon
